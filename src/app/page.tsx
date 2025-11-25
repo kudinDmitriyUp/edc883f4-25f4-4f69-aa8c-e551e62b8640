@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -9,7 +9,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Award, Coffee, Clock3, Droplet, Flower2, MapPin, Sparkles, Spa, Tv, UtensilsCrossed, Wifi, Wine, Wine2, Zap } from 'lucide-react';
+import { Award, Coffee, Clock3, Droplet, Flower2, MapPin, Sparkles, Heart, Tv, UtensilsCrossed, Wifi, Wine, GlassWater, Zap } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -29,7 +29,6 @@ export default function LandingPage() {
         <NavbarStyleMinimal
           brandName="Roma Luxury Hotel"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764094762639-8eb0ovqu.jpg"
-          logoAlt="Roma Luxury Hotel Logo"
           button={{
             text: "Book Now",
             href: "contact"
@@ -82,7 +81,7 @@ export default function LandingPage() {
               description: "Savor exquisite Italian cuisine prepared by renowned chefs in our elegant restaurant overlooking the city."
             },
             {
-              icon: Spa,
+              icon: Heart,
               title: "Wellness Sanctuary",
               description: "Rejuvenate in our full-service spa featuring traditional Italian treatments and modern therapeutic techniques."
             }
@@ -135,7 +134,7 @@ export default function LandingPage() {
                   text: "Award-winning culinary team"
                 },
                 {
-                  icon: Wine2,
+                  icon: GlassWater,
                   text: "Premium Italian wine collection"
                 },
                 {
